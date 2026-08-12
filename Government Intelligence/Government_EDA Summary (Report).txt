@@ -1,0 +1,17 @@
+EDA Summary (Report)
+Dataset Structure
+Total observations: 740
+Total features: 30
+The dataset contains 2 categorical variables (state and district names) and 28 numerical variables representing employment, labour budget, wages, expenditure, and work progress under the MGNREGA scheme.
+Each row corresponds to a district, providing district-level statistics.
+Feature Analysis
+The dataset includes employment-related metrics such as job cards issued, active workers, households worked, and individuals employed.
+Social inclusion indicators include SC workers, ST workers, and differently abled persons worked.
+Financial variables capture approved labour budgets, wages paid, total expenditure, and administrative expenditure.
+Infrastructure and project-related features include ongoing works, completed works, and total works taken up.
+Distribution Analysis
+Most numerical variables exhibit right-skewed distributions, with a few districts reporting substantially higher employment and expenditure than others.
+Wage rates are relatively concentrated compared to expenditure-related variables.
+Boxplots reveal outliers in expenditure and workforce metrics, reflecting variations in district size and program implementation.
+Correlation analysis indicates strong positive relationships between employment measures, expenditure, and work execution, suggesting that districts with larger workforces generally report higher spending and greater numbers of completed projects.
+The dataset contains no missing values, making it suitable for further statistical analysis and predictive modeling without requiring data imputation.
