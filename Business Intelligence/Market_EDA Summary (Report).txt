@@ -1,0 +1,18 @@
+EDA Summary (Report)
+Dataset Structure
+Total observations: 7,681
+Total features: 49
+The first four columns are categorical identifiers (Country Name, Country Code, Series Name, and Series Code).
+The remaining 45 columns contain annual economic data from 1981 to 2025.
+Feature Analysis
+The dataset includes multiple countries and regions, each represented by several economic indicators.
+Indicators include GDP, GDP growth, inflation, manufacturing value added, trade, exports, imports, and gross domestic savings.
+Each row corresponds to a unique Country–Indicator combination observed across 45 years.
+Distribution Analysis
+Numerical features exhibit wide variation because the dataset combines percentages and monetary values.
+Yearly variables are generally right-skewed due to the presence of countries with very large economies and global aggregates.
+Boxplots reveal significant outliers, especially for GDP-related indicators.
+Correlation analysis shows strong positive relationships between consecutive years, reflecting the continuity of economic trends.
+Missing values may be present for certain countries and years and should be addressed before predictive modeling.
+
+This analysis fulfills the requested tasks by importing the dataset, performing a comprehensive exploratory data analysis (EDA), and examining the dataset's structure, features, and distributions.
