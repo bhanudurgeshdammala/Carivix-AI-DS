@@ -1,0 +1,15 @@
+EDA Summary (Report)
+Dataset Structure
+Total observations: 7,667
+Total features: 50
+The dataset contains 5 categorical variables (Country, Series Code, Indicator, Scale, and Unit) and 45 numerical variables representing annual values from 1981 to 2025.
+Each row corresponds to a unique Country–Indicator combination.
+Feature Analysis
+The dataset covers multiple countries and a wide range of economic indicators.
+Metadata columns (Series Code, Scale, and Unit) provide context for interpreting the numerical values.
+Annual columns capture long-term time-series data, making the dataset suitable for trend analysis, forecasting, and comparative studies across countries and indicators.
+Distribution Analysis
+Numerical variables display right-skewed distributions, with a small number of countries exhibiting substantially larger indicator values than the majority.
+Histograms show that most observations are concentrated at lower values, while boxplots reveal several high-value outliers.
+Correlation analysis demonstrates strong positive relationships between consecutive years, indicating temporal consistency in economic indicators.
+The dataset contains no missing values or null entries, ensuring high data completeness and making it well-suited for downstream statistical analysis, machine learning, and time-series forecasting.
