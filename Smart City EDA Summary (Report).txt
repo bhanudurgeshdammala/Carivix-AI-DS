@@ -1,0 +1,17 @@
+EDA Summary (Report)
+Dataset Structure
+Total observations: 5,000
+Total features: 14
+The dataset includes 4 categorical variables, 4 integer variables, and 6 floating-point variables.
+Each record represents a traffic observation at a specific time and geographic location, including traffic flow, environmental conditions, and operational metrics.
+Feature Analysis
+Traffic-related variables include vehicle count, traffic speed, road occupancy, traffic light state, and traffic condition.
+Environmental variables include weather condition, emission levels, and energy consumption.
+Operational metrics include accident reports, ride-sharing demand, and parking availability.
+Timestamp data enables temporal analysis of hourly and daily traffic patterns.
+Distribution Analysis
+The dataset contains no missing values, ensuring complete records for all observations.
+Vehicle count and road occupancy exhibit moderate variability, reflecting fluctuations in traffic density.
+Traffic speed generally decreases as vehicle count and road occupancy increase, indicating congestion effects.
+Emission levels and energy consumption vary across observations and are positively associated with traffic volume.
+Correlation analysis highlights meaningful relationships among vehicle count, traffic speed, occupancy, emissions, and fuel consumption, making the dataset suitable for traffic forecasting, congestion analysis, and intelligent transportation system applications.
